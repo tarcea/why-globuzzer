@@ -64,21 +64,35 @@
   max-width: 100%;
   height: 276px;
   background: #F24B6A;
+  position: relative;
 }
 
-/*.contact-icons {
-  font-size: 16px;
-  color: #F24B6A;
-}*/
+.contact-icons {
+   width: 120px;
+   height: 80px;
+   color: #F24B6A;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   align-items: center;
+   justify-items: center;
+}
 
-.icon {
-  /*width: 30px;
-  height: 30px;*/
+.white-square {
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background: #FFFFFF;
-  padding: 3px;
-  font-size: 16px;
-  color: #F24B6A;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*font-size: 16px;*/
+}
+
+.icons {
+  position: absolute;
+  bottom: 72px;
+  right: 136px;
 }
 
 @media screen and (max-width: 900px) {

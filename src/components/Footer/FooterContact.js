@@ -4,7 +4,9 @@ import ContactIcons from './ContactIcons';
 const FooterContact = () => {
   return (
     <div className="footer-contact">
-      <ContactIcons />
+      <div className="icons">
+        <ContactIcons />
+      </div>
     </div>
   );
 }
