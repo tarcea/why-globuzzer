@@ -43,4 +43,5 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 50px;
+  width: 70%;
 }

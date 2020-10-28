@@ -7,16 +7,20 @@ import { why } from './utils/data';
 
 function App() {
   return (
-    <div className="App">
-      <div className="title">
-        <Header text="Why Globuzzer" />
-      </div>
-      <div className="why">
-        <Header text={why} />
-      </div>
-      <div>
-        <MenuCards />
-      </div>
+    <div>
+      <header className="main-container">
+        <div className="title">
+          <Header text="Why Globuzzer" />
+        </div>
+        <div className="small-line"></div>
+        <div className="why">
+          <Header text={why} />
+        </div>
+        <div className="big-line"></div>
+        <div className="menu">
+          <MenuCards />
+        </div>
+      </header>
     </div>
   );
 }
