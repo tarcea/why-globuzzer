@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import { infos } from '../utils/data';
+import { infos } from '../../utils/data';
 
 const MenuCards = () => {
   return (
@@ -9,6 +9,7 @@ const MenuCards = () => {
           <Card icon={info.icon}
                 title={info.title}
                 body={info.body}
+                key={info.title}
           />
       ))}
     </div>
