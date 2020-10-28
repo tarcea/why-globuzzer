@@ -1,0 +1,46 @@
+/*Card*/
+.card-body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: start;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.card-text h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #555555;
+}
+
+.card-text p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #888888;
+}
+
+.card-icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+}
+
+/*MenuCards*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 50px;
+}

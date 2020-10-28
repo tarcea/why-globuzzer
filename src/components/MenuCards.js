@@ -4,7 +4,7 @@ import { infos } from '../utils/data';
 
 const MenuCards = () => {
   return (
-    <div className="tools-menu" id="tools-link">
+    <div className="grid-container">
       {infos.map((info) => (
           <Card icon={info.icon}
                 title={info.title}

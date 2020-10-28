@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #555555;
+}
+
+.why {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #909090;
+}
