@@ -10,7 +10,7 @@ function App() {
     <div>
       <header className="main-container">
         <div className="title">
-          <Header text="Why Globuzzer" />
+          <Header text="Why Globuzzer?" />
         </div>
         <div className="small-line"></div>
         <div className="why">

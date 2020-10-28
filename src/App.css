@@ -92,3 +92,32 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .why {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .small-line {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.big-line {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  /*justify-content: center;*/
+}
+
+}

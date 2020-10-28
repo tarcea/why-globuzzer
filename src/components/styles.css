@@ -45,3 +45,37 @@
   grid-gap: 50px;
   width: 70%;
 }
+
+@media screen and (max-width: 900px) {
+
+  .card-body {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 2fr;
+    padding: 20px;
+  }
+
+  .grid-container {
+    grid-template-columns: none;
+    width: 100%;
+    gap: 0px;
+  }
+
+    .card-icon {
+      width: 50px;
+      height: 50px;
+      margin: 0px;
+      justify-self: center;
+      align-self: center;
+  }
+
+  .card-text h1 {
+    font-size: 18px;
+    align-self: center;
+  }
+
+  .card-text p {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 15px;
+  }
+}
