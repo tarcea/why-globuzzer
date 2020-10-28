@@ -71,6 +71,8 @@
   .card-text h1 {
     font-size: 18px;
     align-self: center;
+    justify-self: center;
+    text-align: center;
   }
 
   .card-text p {
