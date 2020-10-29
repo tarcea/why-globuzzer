@@ -2,92 +2,66 @@ a {
   text-decoration: none;
 }
 
-/*FooterMap*/
-
-.footer-map {
-  /*width: 100%;
-  max-width: 100%;*/
-  height: 340px;
-  background: #5EBFBF;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.map-text p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 137px;
-  height: 40px;
-  background: #F24B6A;
-  border-radius: 10px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #FFFFFF;
-  margin: auto;
-}
-
-.map-text h1 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 36px;
-  text-align: center;
-  color: #FFFFFF;
-  margin-bottom: 30px;
-}
-
-.card-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.img-map img {
-  width: 228px;
-  height: 134px;
-  margin-bottom: 30px;
-}
-
-
-/*FooterContact*/
-
 .footer-contact {
-  /*width: 100%;
-  max-width: 100%;*/
-  height: 326px;
+  max-width: 1500px;
+  height: 276px;
   background: #F24B6A;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position:relative;
 }
 
-.footer-logo {
-  display: block;
-  margin: auto;
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: center;
+  height: 100%
 }
 
-.footer-address {
+.footer-addresse {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+  width: 100%;
+  padding-top: 30px;
+  line-height: 3;
+}
+
+.footer-addresse a {
+  margin-bottom: 5px;
+}
+
+
+.link-column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 30px;
+}
+
+.link-column a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
-  line-height: 0.0;
-  color: #fff;
-  margin-bottom: 8px;
+  line-height: 146.28%;
+  color: #FFFFFF;
 }
 
+.link-column img {
+  margin-bottom: 0px;
+}
+
+.follow-us {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 146.28%;
+  color: #FFFFFF;
+}
+
+
+/*ICONS SOCIAL MEDIA*/
 .contact-icons {
    width: 135px;
    height: 90px;
@@ -114,6 +88,8 @@ a {
   align-items: center;
 }
 
+
+/*©COPYRIGHT*/
 .footer-copyright {
   font-family: Montserrat;
   font-style: normal;
@@ -122,111 +98,9 @@ a {
   font-weight: 500;
   font-size: 12px;
   color: #FFFFFF;
-}
-
-
-
-
-@media screen and (min-width: 82em) {
-
-/*FooterMap*/
-.footer-map {
-  height: 288px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-map img {
-  width: 340px;
-  height: 200px;
-  margin-right: 141px;
-  margin-bottom: 0;
-}
-
-.map-text h1 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 48px;
-  text-align: center;
-  color: #FFFFFF;
-  width: 489px;
-  height: 92px;
-
-}
-
-
-/*FooterContact*/
-.footer-contact {
-  height: 276px;
+  display: flex;
   position: relative;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.footer-logo {
-  position: absolute;
-  top: 33px;
-  left: 92px;
-}
-
-.footer-address {
-  position: absolute;
-  top: 95px;
-  left: 92px;
-  align-items: start;
-}
-
-.footer-copyright {
-  position: absolute;
-  top: 231px;
-  left: 92px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 146.28%
-}
-
-.contact-icons {
-  position: absolute;
-  top: 131px;
-  right: 146px
-}
-
-.follow-us {
-  position: absolute;
-  top: 75px;
-  right: 150px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 146.28%;
-  color: #FFFFFF;
-}
-.footer-links {
-  display: flex;
-  position: absolute;
-  top: 95px;
-}
-
-.link-column {
-  display: flex;
-  flex-direction: column;
-  margin-right: 80px;
-  margin-left: 90px;
-}
-
-.link-column a {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 146.28%;
-  color: #FFFFFF;
-}
-
-
+  bottom:20px;
+  left: 40%;
+  width:100%;
 }
