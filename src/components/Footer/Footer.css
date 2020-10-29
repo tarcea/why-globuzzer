@@ -167,12 +167,18 @@
   position: absolute;
   top: 95px;
   left: 92px;
+  align-items: start;
 }
 
 .footer-copyright {
   position: absolute;
   top: 231px;
-  left: 56px
+  left: 92px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 146.28%
 }
 
 .contact-icons {
