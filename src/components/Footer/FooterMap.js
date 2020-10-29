@@ -1,15 +1,17 @@
 import React from 'react';
 import map from '../../images/globe.png';
-import Card from '../WhyGlobuzzer/Card';
-import './styles.css';
+import './Footer.css';
 
 const FooterMap = () => {
   return (
     <div className="footer-map">
-      <Card icon={map}
-              title="Want to have your own section?"
-              body="Start now"
-      />
+      <div className="img-map">
+        <img src={map} alt="" />
+      </div>
+      <div className="map-text">
+        <h1>Want to have your own section?</h1>
+        <p>Start now</p>
+      </div>
     </div>
   );
 }

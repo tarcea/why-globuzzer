@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter,
          FaPinterestP, FaYoutube,
          FaLinkedinIn, FaInstagram
        } from 'react-icons/fa';
-import './styles.css';
+import './Footer.css';
 
 const ContactIcons = () => {
   return (
@@ -12,7 +12,7 @@ const ContactIcons = () => {
         <FaFacebookF />
       </div>
       <div className="white-square">
-        <FaTwitter className="icon" />
+        <FaTwitter />
       </div>
       <div className="white-square">
         <FaPinterestP />
