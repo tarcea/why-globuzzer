@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter,
-         FaPinterestP, FaYoutube,
+         FaPinterestP, FaPlayCircle,
          FaLinkedinIn, FaInstagram
        } from 'react-icons/fa';
 import './Footer.css';
@@ -8,24 +8,31 @@ import './Footer.css';
 const ContactIcons = () => {
   return (
     <div className="contact-icons">
-      <div className="white-square">
+      <a href="https://www.facebook.com/Globuzzer/"
+      className="white-square">
         <FaFacebookF />
-      </div>
-      <div className="white-square">
+      </a>
+      <a href="https://twitter.com/globuzzer"
+      className="white-square">
         <FaTwitter />
-      </div>
-      <div className="white-square">
+      </a>
+      <a href="https://www.pinterest.se/globuzzer/"
+      className="white-square">
         <FaPinterestP />
-      </div>
-      <div className="white-square">
-        <FaYoutube />
-      </div>
-      <div className="white-square">
+      </a>
+      <a href="https://www.youtube.com/channel/UC4u8N-QBDMWG6OqzSni8clw"
+      className="white-square">
+        <FaPlayCircle />
+      </a>
+      <a href="https://www.linkedin.com/company/globuzzer/"
+      className="white-square">
         <FaLinkedinIn />
-      </div>
-      <div className="white-square">
+      </a>
+      <a href="https://www.instagram.com/globuzzer/"
+      className="white-square">
         <FaInstagram />
-      </div>
+      </a>
+
     </div>
   );
 }

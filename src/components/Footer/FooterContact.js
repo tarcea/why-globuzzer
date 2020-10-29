@@ -16,6 +16,20 @@ const FooterContact = () => {
         <p>+46 73 555 5 134</p>
         <p>info@globuzzer.com</p>
       </div>
+      {width >= 1312 && (
+        <div className="footer-links">
+          <div className="link-column">
+          <a href="https://globuzzer.com/#section_newcity">Destination</a>
+          <a href="https://globuzzer.com/#featured_articles">Articles</a>
+          <a href="https://globuzzer.com/#aux_services">Services</a>
+          </div>
+          <div className="link-column">
+          <a href="https://www.mightynetworks.com/terms-of-use">Terms & Conditions</a>
+          <a href="https://www.mightynetworks.com/privacy-policy">Privacy Policy</a>
+          </div>
+        </div>
+      )}
+
       <div className="footer-icons">
       {width >= 1312 && (
         <p className="follow-us">FOLLOW US</p>

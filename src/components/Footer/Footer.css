@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 /*FooterMap*/
 
 .footer-map {
@@ -95,6 +99,10 @@
    justify-items: center;
 }
 
+.contact-icons a {
+  color: #F24B6A;
+}
+
 .white-square {
   width: 40px;
   height: 40px;
@@ -107,6 +115,8 @@
 }
 
 .footer-copyright {
+  font-family: Montserrat;
+  font-style: normal;
   text-align: center;
   font-style: normal;
   font-weight: 500;
@@ -174,8 +184,6 @@
   position: absolute;
   top: 231px;
   left: 92px;
-  font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 146.28%
@@ -198,5 +206,27 @@
   line-height: 146.28%;
   color: #FFFFFF;
 }
+.footer-links {
+  display: flex;
+  position: absolute;
+  top: 95px;
+}
+
+.link-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-left: 90px;
+}
+
+.link-column a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 146.28%;
+  color: #FFFFFF;
+}
+
 
 }
