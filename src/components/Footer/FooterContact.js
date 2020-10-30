@@ -29,9 +29,9 @@ const FooterContact = () => {
         <div className="icon-column">
           <p className="follow-us">FOLLOW US</p>
           <ContactIcons />
+           <div className="footer-copyright">© { CURRENT_YEAR } Globuzzer. All rights reserved</div>
         </div>
       </div>
-      <div className="footer-copyright">© { CURRENT_YEAR } Globuzzer. All rights reserved</div>
     </div>
   );
 }
