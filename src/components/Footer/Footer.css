@@ -3,7 +3,7 @@ a {
 }
 
 .footer-contact {
-  max-width: 1500px;
+  max-width: 1824px;
   height: 276px;
   background: #F24B6A;
   position:relative;
@@ -14,6 +14,7 @@ a {
   justify-content: space-around;
   align-items: baseline;
   align-content: center;
+  width:90%;
   height: 100%
 }
 

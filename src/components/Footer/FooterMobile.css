@@ -140,9 +140,8 @@ a {
 
 
 
-@media screen and (min-width: 82em) {
+/*@media screen and (min-width: 82em) {
 
-/*FooterMap*/
 .footer-map {
   height: 288px;
   flex-direction: row;
@@ -170,8 +169,6 @@ a {
 
 }
 
-
-/*FooterContact*/
 .footer-contact {
   height: 276px;
   position: relative;
@@ -226,4 +223,4 @@ a {
 }
 
 
-}
+}*/
