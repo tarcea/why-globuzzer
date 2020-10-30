@@ -7,18 +7,18 @@ import './FooterMobile.css';
 const FooterContactMobile = () => {
 
   return (
-    <div className="footer-contact">
-      <div className="link-column">
+    <div className="footer-mobile">
+      <div className="mobile-column">
         <div className="footer-logo">
           <img src={logo} alt="" />
         </div>
-        <div className="footer-address">
+        <div className="mobile-address">
           <a href="https://globuzzer.com/#section_newcity">Skyttevägen 29, Saltsjöbaden, Sweden</a>
           <a href="https://globuzzer.com/#section_newcity">+46 73 555 5 134</a>
           <a href="https://globuzzer.com/#section_newcity">info@globuzzer.com</a>
         </div>
       </div>
-      <div className="footer-icons">
+      <div className="mobile-icons">
         <ContactIcons />
       </div>
       <div className="footer-copyright">
