@@ -18,13 +18,19 @@ const FooterContact = () => {
           </div>
         </div>
         <div className="link-column">
+        <div></div>
+        <div className="column-one">
           <a href="https://globuzzer.com/#section_newcity">Destination</a>
           <a href="https://globuzzer.com/#featured_articles">Articles</a>
           <a href="https://globuzzer.com/#aux_services">Services</a>
         </div>
+        </div>
         <div className="link-column">
+        <div></div>
+        <div className="column-one">
           <a href="https://www.mightynetworks.com/terms-of-use">Terms & Conditions</a>
           <a href="https://www.mightynetworks.com/privacy-policy">Privacy Policy</a>
+        </div>
         </div>
         <div className="icon-column">
           <p className="follow-us">FOLLOW US</p>

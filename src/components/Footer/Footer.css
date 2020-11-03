@@ -40,12 +40,20 @@ a {
   padding-top: 30px;
 }
 
+.column-one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+
+
 .link-column a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
-  line-height: 146.28%;
+  line-height: 235%;
   color: #FFFFFF;
 }
 
@@ -58,7 +66,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 146.28%;
+  line-height: 100%;
   color: #FFFFFF;
 }
 
@@ -88,6 +96,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon-column {
+
 }
 
 
