@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import FooterContact from './FooterContact';
 import FooterContactMobile from './FooterContactMobile';
 
-
 const Footer = () => {
   const [width, setWidth] = useState(window.innerWidth);
   const updateWidth = () => {

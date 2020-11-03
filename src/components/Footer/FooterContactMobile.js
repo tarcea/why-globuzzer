@@ -21,7 +21,7 @@ const FooterContactMobile = () => {
       <div className="mobile-icons">
         <ContactIcons />
       </div>
-      <div className="footer-copyright">
+      <div className="footer-copyright-mobile">
         <p>© { CURRENT_YEAR } Globuzzer. All rights reserved</p>
       </div>
     </div>

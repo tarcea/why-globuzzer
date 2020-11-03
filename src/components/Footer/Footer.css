@@ -16,6 +16,7 @@ a {
   align-content: center;
   width:90%;
   height: 100%;
+  margin: 0 auto;
 }
 
 .footer-addresse {
@@ -99,5 +100,12 @@ a {
   font-weight: 500;
   font-size: 12px;
   color: #FFFFFF;
-  display: flex;
+  /*display: flex;*/
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  text-align: center;
 }
