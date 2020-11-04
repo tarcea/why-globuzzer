@@ -1,0 +1,94 @@
+/*MOBILE*/
+.mobile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+  margin: 0px auto;
+  transition: all 0.3s ease-in-out 0s;
+  padding: 16px 20px;
+}
+
+.ghost-button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 134.09%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F24B6A;
+}
+
+.burger-menu {
+  width: 35px;
+  height: 35px;
+  color: #7B7B7B;
+}
+
+.logo-globe {
+  padding-left: 10px;
+}
+
+/*DESKTOP*/
+
+.top-menu {
+  margin-top: 31px;
+  /*margin-left: 54px;*/
+  background: #ffffff;
+  padding: 10px 30px;
+  color: #ffffff;
+  height: 100px;
+}
+
+.desktop-container {
+  display:flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu-logo {
+  margin-left: 54px;
+}
+
+.desktop-underline {
+  margin-top: 29px;
+  /*margin-left: 43px;*/
+  border: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.desktop-links {
+  position: absolute;
+  right: 5%;
+}
+
+.desktop-links li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /*display: flex;*/
+  /*align-items: center;*/
+  color: #888888;
+  list-style-type: none;
+  display: inline-block;
+  margin: 8px;
+  /*justify-content: flex-end;*/
+}
+
+
+.selected {
+  border: 1px solid #F24B6A;
+  border-radius: 15px;
+  color: #F24B6A;
+  width: 140px;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+
+
