@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ContactIcons from './ContactIcons';
 import logo from '../../images/globuzzer_logo.png';
 import { CURRENT_YEAR } from '../.././config';
