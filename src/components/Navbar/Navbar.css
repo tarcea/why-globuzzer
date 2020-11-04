@@ -45,6 +45,7 @@
 
 .desktop-container {
   display:flex;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
@@ -60,8 +61,7 @@
 }
 
 .desktop-links {
-  position: absolute;
-  right: 5%;
+
 }
 
 .desktop-links li {
@@ -80,14 +80,26 @@
 }
 
 
-.selected {
+.desktop-button {
+  display: flex;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
   border: 1px solid #F24B6A;
   border-radius: 15px;
   color: #F24B6A;
   width: 140px;
   height: 30px;
-  text-align: center;
-  padding-top: 3px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
 }
 
 

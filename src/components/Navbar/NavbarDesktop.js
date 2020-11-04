@@ -5,15 +5,18 @@ const NavbarDesktop = () => {
   return (
     <div className="top-menu">
     <div className="desktop-container">
-      <header>
-        <img src={logo} alt="logo" className="menu-logo"/>
-      </header>
+
+        <img src={logo} alt="logo" className="menu-logo desktop-logo"/>
+      <div className="desktop-menu">
       <div className="desktop-links">
         <ul>
           <li>Testimonials</li>
           <li>Contact us</li>
-          <li className="selected" style={{color: '#F24B6A'}} >Get started</li>
         </ul>
+      </div>
+      <div className="desktop-button" >
+        <p>Get started</p>
+      </div>
       </div>
       </div>
       <hr className="desktop-underline" />
