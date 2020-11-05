@@ -4,8 +4,8 @@ import WhyGlobuzzer from './components/WhyGlobuzzer/WhyGlobuzzer';
 import Footer from './components/Footer/Footer';
 
 function App() {
-
   const [width, setWidth] = useState(window.innerWidth);
+
   const updateWidth = () => {
     setWidth(window.innerWidth)
   }
@@ -13,6 +13,8 @@ function App() {
     window.addEventListener("resize", updateWidth);
     return () => window.removeEventListener("resize", updateWidth);
   }, []);
+
+
 
   return (
     <div>

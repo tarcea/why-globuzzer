@@ -1,3 +1,12 @@
+
+/*GENERAL*/
+
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 /*MOBILE*/
 .mobile-container {
   display: flex;
@@ -35,9 +44,10 @@
 /*DESKTOP*/
 
 .top-menu {
-  margin-top: 31px;
+  /*background-color: pink;*/
+  /*margin-top: 31px;*/
   /*margin-left: 54px;*/
-  background: #ffffff;
+  /*background: #ffffff;*/
   padding: 10px 30px;
   color: #ffffff;
   height: 100px;
@@ -48,17 +58,13 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  border-bottom: 1px solid #ffffff;
 }
 
 .menu-logo {
   margin-left: 54px;
 }
 
-.desktop-underline {
-  margin-top: 29px;
-  /*margin-left: 43px;*/
-  border: 1px solid rgba(136, 136, 136, 0.3);
-}
 
 .desktop-links {
 
@@ -81,7 +87,7 @@
 
 
 .desktop-button {
-  display: flex;
+display: flex;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -95,12 +101,24 @@
   justify-content: center;
   align-items: center;
   margin-left: 24px;
+  background: transparent;
+}
+
+.desktop-button:hover {
+  background-color: #F24B6A;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .desktop-menu {
   display: flex;
   align-items: center;
+
 }
+
+
+
+
 
 
 
