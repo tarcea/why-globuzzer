@@ -58,7 +58,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  border-bottom: 1px solid #ffffff;
+  /*border-bottom: 1px solid #ffffff;*/
 }
 
 .menu-logo {
