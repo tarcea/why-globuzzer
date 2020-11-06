@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../images/globuzzer_logo.png';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 
-const Sesame = () => {
+const Sesame = ({ openSesame, handleOpen}) => {
 
+  const handleClick = () => {
+    handleOpen(!openSesame)
+  }
 
   return (
     <div className="floating-menu">
@@ -15,16 +18,16 @@ const Sesame = () => {
         <div className="sesame-links">
           <div className="link">
             <GoLocation />
-            <a href="#www">Testimonials</a>
+            <a href="#www" onClick={handleClick}>Testimonials</a>
           </div>
           <div className="link">
             <AiOutlineQuestionCircle />
-            <a href="#www">Contact us</a>
+            <a href="#footer" onClick={handleClick}>Contact us</a>
           </div>
         </div>
       </div>
       <div className="ghost-button" style={{color:"#FFFFFF", background:"#F24B6A", margin:"33px auto 0"}}>
-        <p>Get started</p>
+        <p onClick={handleClick}>Get started</p>
       </div>
     </div>
   );

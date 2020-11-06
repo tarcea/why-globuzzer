@@ -1,13 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../images/logo_globe.png';
+// import { IconContext } from "react-icons";
 import { VscMenu } from 'react-icons/vsc';
 import Sesame from './Sesame';
+import {useSpring, animated} from 'react-spring';
 
 
 const NavbarMobile = () => {
   const [scrollUp, setScrollUp] = useState(null);
   const [inHover, setHover] = useState(false);
   const [openSesame, setSesame] = useState(false);
+
+  const updateScroll = () => {
+    setScrollUp(window.pageYOffset);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", updateScroll);
+    window.addEventListener("click", (e) => {
+      (e.clientX > 213 || (e.clientY < 18 || e.clientY > 360)) && setSesame(false)
+    });
+    return () => window.removeEventListener("scroll", updateScroll);
+  }, [])
+
+  const handleOpen = (newSesame) => {
+    setSesame(newSesame);
+  }
 
   const handleClick = () => {
     openSesame && setSesame(false)
@@ -27,18 +46,12 @@ const NavbarMobile = () => {
     borderBottom: scrollUp > 60 ? 0 : "1px solid rgba(136, 136, 136, 0.3)"
   }
 
-  window.addEventListener("scroll", () => {
-    setScrollUp(window.pageYOffset)
-  });
-
-  window.addEventListener("click", (e) => {
-    (e.clientX > 213 || (e.clientY < 18 || e.clientY > 360)) && setSesame(false)
-  });
-
   return (
     <div>
     {openSesame &&
-    <Sesame />
+
+    <Sesame openSesame={openSesame} handleOpen={handleOpen} />
+
     }
     <div className="mobile-container" style={noLine} onClick={handleClick}>
       <VscMenu className="burger-menu"

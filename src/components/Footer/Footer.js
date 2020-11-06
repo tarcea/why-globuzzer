@@ -6,7 +6,7 @@ import FooterContactMobile from './FooterContactMobile';
 const Footer = ({ width }) => {
 
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="footer">
     {width >= 900 ? (
         <FooterContact />
       ) :

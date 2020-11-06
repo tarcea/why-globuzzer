@@ -44,7 +44,6 @@ body {
 .burger-menu {
   width: 35px;
   height: 35px;
-  /*color: #7B7B7B;*/
 }
 
 .logo-globe {
@@ -59,6 +58,7 @@ body {
   position: fixed;
   top:18px;
   left: 0px;
+  border-radius: 1px;
 }
 
 .sesame-container {
@@ -119,7 +119,6 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  /*border-bottom: 1px solid #ffffff;*/
 }
 
 .menu-logo {
@@ -137,13 +136,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  /*display: flex;*/
-  /*align-items: center;*/
   color: #888888;
   list-style-type: none;
   display: inline-block;
   margin: 8px;
-  /*justify-content: flex-end;*/
 }
 
 
