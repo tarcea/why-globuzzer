@@ -7,7 +7,7 @@ import { why } from '../../utils/data';
 const WhyGlobuzzer = () => {
   return (
     <div>
-      <header className="main-container">
+      <header className="main-container" style={{marginTop: "128px"}}>
         <div className="title">
           <Header text="Why Globuzzer?" />
         </div>
