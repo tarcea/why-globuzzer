@@ -31,6 +31,10 @@ const NavbarMobile = () => {
     setScrollUp(window.pageYOffset)
   });
 
+  window.addEventListener("click", (e) => {
+    (e.clientX > 213 || (e.clientY < 18 || e.clientY > 360)) && setSesame(false)
+  });
+
   return (
     <div>
     {openSesame &&
