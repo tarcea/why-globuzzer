@@ -23,6 +23,9 @@ const Sesame = () => {
           </div>
         </div>
       </div>
+      <div className="ghost-button" style={{color:"#FFFFFF", background:"#F24B6A", margin:"33px auto 0"}}>
+        <p>Get started</p>
+      </div>
     </div>
   );
 }

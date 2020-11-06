@@ -68,6 +68,7 @@ body {
   align-items: flex-start;
   padding: 14px 20px;
   color: #FFFFFF;
+  border-bottom: 1px solid #5F5D73;
 }
 
 .sesame-logo {
@@ -76,6 +77,10 @@ body {
   padding-bottom: 45px
   /*left: 20px;
   top: 14px;*/
+}
+
+.sesame-links {
+  margin-bottom: 50px;
 }
 
 .sesame-links a {
