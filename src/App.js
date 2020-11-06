@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import WhyGlobuzzer from './components/WhyGlobuzzer/WhyGlobuzzer';
 import Footer from './components/Footer/Footer';
-import background from './images/image_background.png';
+// import background from './images/image_background.png';
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -20,7 +20,6 @@ function App() {
   return (
     <div>
       <Navbar width={width} />
-      <img src={background} alt="" />
       <WhyGlobuzzer />
       <Footer width={width} />
     </div>
