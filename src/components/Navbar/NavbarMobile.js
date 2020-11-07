@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../images/logo_globe.png';
 // import { IconContext } from "react-icons";
 import { VscMenu } from 'react-icons/vsc';
 import Sesame from './Sesame';
-import {useSpring, animated} from 'react-spring';
-
+// import {useSpring, animated} from 'react-spring';
 
 const NavbarMobile = () => {
   const [scrollUp, setScrollUp] = useState(null);
@@ -16,12 +15,17 @@ const NavbarMobile = () => {
     setScrollUp(window.pageYOffset);
   }
 
+  const getClient = (e) => {
+    (e.clientX > 213 || (e.clientY < 18 || e.clientY > 360))
+    && setSesame(false)
+  }
+
   useEffect(() => {
     window.addEventListener("scroll", updateScroll);
-    window.addEventListener("click", (e) => {
-      (e.clientX > 213 || (e.clientY < 18 || e.clientY > 360)) && setSesame(false)
-    });
-    return () => window.removeEventListener("scroll", updateScroll);
+    window.addEventListener("click", getClient);
+    return () => {window.removeEventListener("scroll", updateScroll);
+                  window.removeEventListener("click", getClient);
+                  }
   }, [])
 
   const handleOpen = (newSesame) => {
@@ -60,7 +64,11 @@ const NavbarMobile = () => {
       <div className="logo-globe">
         <img src={logo} alt="logo-globe" />
       </div>
-      <div className="ghost-button" style={style}>
+      <div className="ghost-button"
+           style={style}
+           onMouseEnter={() => setHover(true)}
+           onMouseLeave={() => setHover(false)}>
+            {/*is it hover needed on mobile view???*/}
         <p>Get started</p>
       </div>
     </div>

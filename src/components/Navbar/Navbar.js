@@ -7,15 +7,18 @@ const Navbar = ({ width }) => {
 
   const [navColor, setNavColor] = useState("transparent");
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
+  const setColor = () => {
     const currentScroll = window.pageYOffset;
     if (currentScroll > 60) {
       setNavColor("rgba(128,128,128,0.6)");
     } else {
-      setNavColor("transparent");
+      setNavColor("rgba(255, 255, 255, 0)");
     }
-  });
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", setColor);
+    return () => window.removeEventListener("scroll", setColor);
   }, [])
 
   return (
