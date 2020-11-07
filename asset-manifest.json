@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/why-globuzzer/static/css/main.5f9e6bef.chunk.css",
-    "main.js": "/why-globuzzer/static/js/main.461e7be0.chunk.js",
-    "main.js.map": "/why-globuzzer/static/js/main.461e7be0.chunk.js.map",
+    "main.js": "/why-globuzzer/static/js/main.3c85057e.chunk.js",
+    "main.js.map": "/why-globuzzer/static/js/main.3c85057e.chunk.js.map",
     "runtime-main.js": "/why-globuzzer/static/js/runtime-main.ef4c862b.js",
     "runtime-main.js.map": "/why-globuzzer/static/js/runtime-main.ef4c862b.js.map",
     "static/js/2.6074dbbc.chunk.js": "/why-globuzzer/static/js/2.6074dbbc.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ef4c862b.js",
     "static/js/2.6074dbbc.chunk.js",
     "static/css/main.5f9e6bef.chunk.css",
-    "static/js/main.461e7be0.chunk.js"
+    "static/js/main.3c85057e.chunk.js"
   ]
 }
