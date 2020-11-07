@@ -33,7 +33,7 @@ const NavbarMobile = () => {
   }
 
   const handleClick = () => {
-    openSesame && setSesame(false)
+    openSesame && setSesame(false);
   }
 
   const style = {

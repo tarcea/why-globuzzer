@@ -9,11 +9,11 @@ const Navbar = ({ width }) => {
 
   const setColor = () => {
     const currentScroll = window.pageYOffset;
-    if (currentScroll > 60) {
-      setNavColor("rgba(128,128,128,0.6)");
-    } else {
-      setNavColor("rgba(255, 255, 255, 0)");
-    }
+    currentScroll > 60
+    ?
+      setNavColor("rgba(128,128,128,0.6)")
+    :
+      setNavColor("rgba(255, 255, 255, 0)")
   }
 
   useEffect(() => {
@@ -24,9 +24,10 @@ const Navbar = ({ width }) => {
   return (
     <div className="navbar-container" style={{background:`${navColor}`}}>
 
-    {width >= 900 ? (
+    {width >= 900
+      ?
       <NavbarDesktop />
-      ) :
+      :
       <NavbarMobile />
   }
     </div>
