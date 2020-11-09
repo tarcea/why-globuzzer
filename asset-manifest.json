@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/why-globuzzer/static/css/main.ea465033.chunk.css",
+    "main.css": "/why-globuzzer/static/css/main.84a59642.chunk.css",
     "main.js": "/why-globuzzer/static/js/main.d68c1dd4.chunk.js",
     "main.js.map": "/why-globuzzer/static/js/main.d68c1dd4.chunk.js.map",
     "runtime-main.js": "/why-globuzzer/static/js/runtime-main.8566cc43.js",
@@ -10,14 +10,14 @@
     "static/js/3.63b965b7.chunk.js": "/why-globuzzer/static/js/3.63b965b7.chunk.js",
     "static/js/3.63b965b7.chunk.js.map": "/why-globuzzer/static/js/3.63b965b7.chunk.js.map",
     "index.html": "/why-globuzzer/index.html",
-    "static/css/main.ea465033.chunk.css.map": "/why-globuzzer/static/css/main.ea465033.chunk.css.map",
+    "static/css/main.84a59642.chunk.css.map": "/why-globuzzer/static/css/main.84a59642.chunk.css.map",
     "static/js/2.d555490c.chunk.js.LICENSE.txt": "/why-globuzzer/static/js/2.d555490c.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/why-globuzzer/static/media/image_background.851b66c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8566cc43.js",
     "static/js/2.d555490c.chunk.js",
-    "static/css/main.ea465033.chunk.css",
+    "static/css/main.84a59642.chunk.css",
     "static/js/main.d68c1dd4.chunk.js"
   ]
 }
