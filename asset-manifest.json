@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/why-globuzzer/static/css/main.90dc8a93.chunk.css",
-    "main.js": "/why-globuzzer/static/js/main.0ab089e5.chunk.js",
-    "main.js.map": "/why-globuzzer/static/js/main.0ab089e5.chunk.js.map",
-    "runtime-main.js": "/why-globuzzer/static/js/runtime-main.a88d68cd.js",
-    "runtime-main.js.map": "/why-globuzzer/static/js/runtime-main.a88d68cd.js.map",
-    "static/js/2.25fee119.chunk.js": "/why-globuzzer/static/js/2.25fee119.chunk.js",
-    "static/js/2.25fee119.chunk.js.map": "/why-globuzzer/static/js/2.25fee119.chunk.js.map",
-    "static/js/3.e6f64741.chunk.js": "/why-globuzzer/static/js/3.e6f64741.chunk.js",
-    "static/js/3.e6f64741.chunk.js.map": "/why-globuzzer/static/js/3.e6f64741.chunk.js.map",
+    "main.css": "/why-globuzzer/static/css/main.7f0a2d25.chunk.css",
+    "main.js": "/why-globuzzer/static/js/main.d68c1dd4.chunk.js",
+    "main.js.map": "/why-globuzzer/static/js/main.d68c1dd4.chunk.js.map",
+    "runtime-main.js": "/why-globuzzer/static/js/runtime-main.8566cc43.js",
+    "runtime-main.js.map": "/why-globuzzer/static/js/runtime-main.8566cc43.js.map",
+    "static/js/2.d555490c.chunk.js": "/why-globuzzer/static/js/2.d555490c.chunk.js",
+    "static/js/2.d555490c.chunk.js.map": "/why-globuzzer/static/js/2.d555490c.chunk.js.map",
+    "static/js/3.63b965b7.chunk.js": "/why-globuzzer/static/js/3.63b965b7.chunk.js",
+    "static/js/3.63b965b7.chunk.js.map": "/why-globuzzer/static/js/3.63b965b7.chunk.js.map",
     "index.html": "/why-globuzzer/index.html",
-    "static/css/main.90dc8a93.chunk.css.map": "/why-globuzzer/static/css/main.90dc8a93.chunk.css.map",
-    "static/js/2.25fee119.chunk.js.LICENSE.txt": "/why-globuzzer/static/js/2.25fee119.chunk.js.LICENSE.txt"
+    "static/css/main.7f0a2d25.chunk.css.map": "/why-globuzzer/static/css/main.7f0a2d25.chunk.css.map",
+    "static/js/2.d555490c.chunk.js.LICENSE.txt": "/why-globuzzer/static/js/2.d555490c.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/why-globuzzer/static/media/image_background.851b66c6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a88d68cd.js",
-    "static/js/2.25fee119.chunk.js",
-    "static/css/main.90dc8a93.chunk.css",
-    "static/js/main.0ab089e5.chunk.js"
+    "static/js/runtime-main.8566cc43.js",
+    "static/js/2.d555490c.chunk.js",
+    "static/css/main.7f0a2d25.chunk.css",
+    "static/js/main.d68c1dd4.chunk.js"
   ]
 }
