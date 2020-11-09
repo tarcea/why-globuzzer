@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { IoIosArrowDropleft } from "react-icons/io";
 import { BsSearch } from "react-icons/bs";
 import './SignUp.css'
@@ -7,12 +7,12 @@ import './SignUp.css'
 const SignUp = () => {
 
   return (
-    <div className="signup-container">
+    <div className="signup-container" id="signup">
       <header>
-      <Link to="/" className="back-home">
+      <a href="#top" className="back-home">
         <IoIosArrowDropleft className="icon-back"/>
         <p>Back</p>
-      </Link>
+      </a>
       </header>
       <div className="search-form">
         <p>Choose cities you like</p>
