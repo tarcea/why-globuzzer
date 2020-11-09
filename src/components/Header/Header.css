@@ -2,11 +2,11 @@
 .header-container {
   width: 100vw;
   height: 85vh;
-
+  overflow: hidden;
 }
 
 .image-background {
-  padding-top: 80px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

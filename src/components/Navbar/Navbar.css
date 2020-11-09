@@ -2,8 +2,9 @@
 /*GENERAL*/
 .navbar-container {
   position: fixed;
-  width: 100%;
   top: 0;
+  width: 100%;
+
 }
 
 /*MOBILE*/
@@ -16,7 +17,7 @@
   /*border-bottom: 1px solid rgba(136, 136, 136, 0.3);*/
   margin: 0px auto;
   transition: all 0.3s ease-in-out 0s;
-  padding: 16px 20px;
+  padding: 16px 0px;
 }
 
 .ghost-button {
@@ -44,7 +45,7 @@
 }
 
 .logo-globe {
-  padding-left: 50px;
+  padding-left: 60px;
 }
 
 @keyframes myAnimation{
