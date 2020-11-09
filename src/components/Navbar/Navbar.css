@@ -95,7 +95,7 @@ body {
   left: 0px;
   border-radius: 1px;
   animation-name: myAnimation;
-  animation-duration: 200ms;
+  animation-duration: 150ms;
   /*animation-delay: 200ms;*/
   animation-fill-mode: forwards;
 }

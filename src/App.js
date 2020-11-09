@@ -23,12 +23,9 @@ console.log(location.pathname)
 
   return (
     <div>
-    <BrowserRouter>
-    {pathname !== '/signup' && <Navbar width={width} />}
-      <Route exact path="/" component={WhyGlobuzzer} />
-      <Route path="/signup" component={SignUp} />
-    {pathname !== '/signup' && <Footer width={width} />}
-    </BrowserRouter>
+    <Navbar width={width} />
+    <WhyGlobuzzer />
+    <Footer width={width} />
     </div>
   );
 }
