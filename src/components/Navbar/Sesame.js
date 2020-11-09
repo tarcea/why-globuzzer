@@ -2,14 +2,19 @@ import React from 'react';
 import logo from '../../images/globuzzer_logo.png';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
+import {useSpring, animated} from 'react-spring';
 
 const Sesame = ({ openSesame, handleOpen}) => {
+  const springStyle = useSpring({
+                                  opacity: openSesame ? 1 : 0,
+                                })
 
   const handleClick = () => {
     handleOpen(!openSesame)
   }
 
   return (
+    <animated.div style={springStyle}>
     <div className="floating-menu">
       <div className="sesame-container">
         <div>
@@ -30,6 +35,7 @@ const Sesame = ({ openSesame, handleOpen}) => {
         <p onClick={handleClick}>Get started</p>
       </div>
     </div>
+    </animated.div>
   );
 }
 

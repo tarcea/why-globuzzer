@@ -4,7 +4,6 @@ import logo from '../../images/logo_globe.png';
 // import { IconContext } from "react-icons";
 import { VscMenu } from 'react-icons/vsc';
 import Sesame from './Sesame';
-// import {useSpring, animated} from 'react-spring';
 
 const NavbarMobile = () => {
   const [scrollUp, setScrollUp] = useState(null);

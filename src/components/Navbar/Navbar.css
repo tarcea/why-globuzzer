@@ -50,15 +50,54 @@ body {
   padding-left: 64px;
 }
 
+@keyframes myAnimation{
+  0%{
+    opacity: 0.1;
+    /*transform: rotateY(90deg);*/
+    transform: scale(0);
+    /*transform: scaleX(0.2);*/
+  }
+  25%{
+    opacity: 0.2;
+    /*transform: rotateY(60deg);*/
+    transform: scale(0.25);
+    /*transform: scaleX(0.4);*/
+  }
+  50%{
+    opacity: 0.3;
+    /*transform: rotateY(30deg);*/
+    transform: scale(0.5);
+    /*transform: scaleX(0.6);*/
+  }
+  75%{
+    opacity: 0.5;
+    /*transform: rotateY(10deg);*/
+    transform: scale(0.75);
+    /*transform: scaleX(0.8);*/
+  }
+  100%{
+    /*display: none;*/
+    opacity: 1;
+    /*transform: rotateY(0deg);*/
+    transform: scale(1);
+    /*transform: scaleX(1);*/
+  }
+}
+
+
 .floating-menu {
   z-index: 9999;
   height: 345px;
   width: 213px;
   background: #2A293A;
   position: fixed;
-  top:18px;
+  top:0px;
   left: 0px;
   border-radius: 1px;
+  animation-name: myAnimation;
+  animation-duration: 200ms;
+  /*animation-delay: 200ms;*/
+  animation-fill-mode: forwards;
 }
 
 .sesame-container {
