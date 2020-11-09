@@ -10,7 +10,7 @@
 .mobile-container {
   z-index: 999;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: relative;
   /*border-bottom: 1px solid rgba(136, 136, 136, 0.3);*/
@@ -44,7 +44,7 @@
 }
 
 .logo-globe {
-  padding-left: 64px;
+  padding-left: 50px;
 }
 
 @keyframes myAnimation{
