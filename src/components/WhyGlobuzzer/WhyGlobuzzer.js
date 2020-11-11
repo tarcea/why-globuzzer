@@ -5,6 +5,7 @@ import { why } from '../../utils/data';
 
 
 const WhyGlobuzzer = () => {
+
   return (
     <div>
       <header className="main-container" style={{marginTop: "128px"}}>
@@ -20,6 +21,7 @@ const WhyGlobuzzer = () => {
           <MenuCards />
         </div>
       </header>
+
     </div>
   );
 }

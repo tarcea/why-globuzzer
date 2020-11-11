@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 // import { BrowserRouter, Route, useLocation } from "react-router-dom";
 
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import WhyGlobuzzer from './components/WhyGlobuzzer/WhyGlobuzzer';
 import Footer from './components/Footer/Footer';
+import AnchorContextProvider from './contexts/AnchorContext';
 // import SignUp from './components/SignUp/SignUp';
 // import background from './images/image_background.png';
 
@@ -23,10 +24,12 @@ function App() {
 
   return (
     <div id="top">
-    <Navbar width={width} />
-    <Header width={width} />
-    <WhyGlobuzzer />
-    <Footer width={width} />
+    <AnchorContextProvider>
+      <Navbar width={width} />
+      <Header width={width}/>
+      <WhyGlobuzzer />
+      <Footer width={width} />
+    </AnchorContextProvider>
     </div>
   );
 }

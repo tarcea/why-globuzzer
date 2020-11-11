@@ -3,7 +3,6 @@ import './Header.css';
 import HeaderDesktop from './HeaderDesktop';
 import HeaderMobile from './HeaderMobile';
 
-
 const Header = ({ width }) => {
   return (
     <div>

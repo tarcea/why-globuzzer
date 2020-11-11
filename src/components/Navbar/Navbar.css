@@ -177,8 +177,8 @@
   list-style-type: none;
   display: inline-block;
   margin: 8px;
+  cursor: pointer;
 }
-
 
 .desktop-button {
   display: flex;
