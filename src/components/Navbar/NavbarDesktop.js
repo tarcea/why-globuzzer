@@ -7,7 +7,7 @@ import { AnchorContext } from '../.././contexts/AnchorContext';
 const NavbarDesktop = (props) => {
   const [scrollUp, setScrollUp] = useState(null);
   const [inHover, setHover] = useState(false);
-  const { top, footer, testimonials, } = useContext(AnchorContext);
+  const { top, footer, testimonials } = useContext(AnchorContext);
 
   const updateScroll = () => {
     setScrollUp(window.pageYOffset);

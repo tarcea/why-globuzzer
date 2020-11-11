@@ -10,7 +10,7 @@ const AnchorContextProvider = (props) => {
   });
 
   return (
-      <AnchorContext.Provider value={{anchors}}>
+      <AnchorContext.Provider value={anchors}>
         {props.children}
       </AnchorContext.Provider>
   );
