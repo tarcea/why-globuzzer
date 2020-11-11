@@ -6,6 +6,7 @@ import { AnchorContext } from '../.././contexts/AnchorContext';
 // import {useSpring, animated} from 'react-spring';
 
 const Sesame = ({ openSesame, handleOpen}) => {
+
   const { top, footer, testimonials, } = useContext(AnchorContext);
 
   const handleSesame = () => {
