@@ -70,39 +70,6 @@ a {
   color: #FFFFFF;
 }
 
-
-/*ICONS SOCIAL MEDIA*/
-.contact-icons {
-   width: 135px;
-   height: 90px;
-   color: #F24B6A;
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   align-items: center;
-   justify-items: center;
-}
-
-.contact-icons a {
-  color: #F24B6A;
-}
-
-.white-square {
-  width: 40px;
-  height: 40px;
-  font-size: 24px;
-  border-radius: 50%;
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon-column {
-  margin: auto 0;
-}
-
-
 /*©COPYRIGHT*/
 .footer-copyright {
   font-family: Montserrat;

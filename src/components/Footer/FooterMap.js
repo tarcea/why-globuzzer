@@ -1,6 +1,6 @@
 import React from 'react';
 import map from '../../images/globe.png';
-import './Footer.css';
+
 
 const FooterMap = () => {
   return (
