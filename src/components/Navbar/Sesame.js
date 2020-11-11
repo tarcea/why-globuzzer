@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import logo from '../../images/globuzzer_logo.png';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
@@ -6,22 +6,18 @@ import { AnchorContext } from '../.././contexts/AnchorContext';
 // import {useSpring, animated} from 'react-spring';
 
 const Sesame = ({ openSesame, handleOpen}) => {
-
+  const { top, footer, testimonials, } = useContext(AnchorContext);
 
   const handleSesame = () => {
     handleOpen(!openSesame)
   }
 
-  return (
-    <AnchorContext.Consumer>{(context) => {
-      const { top, footer, testimonials, } = context;
-
-          const handleClick = (anchor) => {
+   const handleClick = (anchor) => {
             anchor.current.scrollIntoView({behavior: "smooth"});
         }
 
-          return (
-        <div className="floating-menu">
+  return (
+    <div className="floating-menu">
           <div className="sesame-container">
             <div>
               <img src={logo} alt="logo" className="sesame-logo"/>
@@ -29,7 +25,7 @@ const Sesame = ({ openSesame, handleOpen}) => {
             <div className="sesame-links">
               <div className="link">
                 <GoLocation />
-                <a href="#www" onClick={handleClick}>Testimonials</a>
+                <a href="#www" onClick={handleSesame}>Testimonials</a>
               </div>
               <div className="link">
                 <AiOutlineQuestionCircle />
@@ -41,8 +37,6 @@ const Sesame = ({ openSesame, handleOpen}) => {
             <p onClick={handleSesame}>Get started</p>
           </div>
         </div>
-        );
-      }}</AnchorContext.Consumer>
   );
 }
 

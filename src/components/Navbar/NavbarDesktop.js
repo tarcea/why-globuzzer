@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 // import { Link, NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../images/globuzzer_logo.png';
@@ -7,6 +7,7 @@ import { AnchorContext } from '../.././contexts/AnchorContext';
 const NavbarDesktop = (props) => {
   const [scrollUp, setScrollUp] = useState(null);
   const [inHover, setHover] = useState(false);
+  const { top, footer, testimonials, } = useContext(AnchorContext);
 
   const updateScroll = () => {
     setScrollUp(window.pageYOffset);
@@ -32,17 +33,12 @@ const NavbarDesktop = (props) => {
     borderBottom: scrollUp > 60 ? 0 : "1px solid #FFFFFF"
   }
 
-  return (
-    <AnchorContext.Consumer>{(context) => {
-
-      const { top, footer, testimonials, } = context;
-
-      const handleClick = (anchor) => {
+  const handleClick = (anchor) => {
         anchor.current.scrollIntoView({behavior: "smooth"});
     }
 
-      return (
-        <div className="top-menu">
+  return (
+    <div className="top-menu">
           <div className="desktop-container" style={noLine}>
               <img src={logo} alt="logo" className="menu-logo desktop-logo"/>
             <div className="desktop-menu">
@@ -63,8 +59,6 @@ const NavbarDesktop = (props) => {
             </div>
             </div>
           </div>
-      );
-    }}</AnchorContext.Consumer>
   );
 }
 
