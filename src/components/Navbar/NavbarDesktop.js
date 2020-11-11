@@ -3,6 +3,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../images/globuzzer_logo.png';
 import { AnchorContext } from '../.././contexts/AnchorContext';
+import styles from './NavbarDesktop.module.css';
 
 const NavbarDesktop = (props) => {
   const [scrollUp, setScrollUp] = useState(null);
@@ -38,11 +39,11 @@ const NavbarDesktop = (props) => {
     }
 
   return (
-    <div className="top-menu">
-          <div className="desktop-container" style={noLine}>
-              <img src={logo} alt="logo" className="menu-logo desktop-logo"/>
-            <div className="desktop-menu">
-            <div className="desktop-links" >
+    <div className={styles.["top-menu"]}>
+          <div className={styles.["desktop-container"]} style={noLine}>
+              <img src={logo} alt="logo" className={style.["menu-logo desktop-logo"]}/>
+            <div className={styles.["desktop-menu"]}>
+            <div className={styles.["desktop-links"]} >
               <ul>
 
                 <li style={whiteStyle} onClick={() => handleClick(footer)}>Testimonials</li>
@@ -51,7 +52,7 @@ const NavbarDesktop = (props) => {
 
               </ul>
             </div>
-            <div style={style} className="desktop-button"
+            <div style={style} className={styles.["desktop-button"]}
                                onMouseEnter={() => setHover(true)}
                                onMouseLeave={() => setHover(false)}>
               <p>Get started</p>

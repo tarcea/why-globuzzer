@@ -1,0 +1,41 @@
+.mobile-container {
+  z-index: 999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  /*border-bottom: 1px solid rgba(136, 136, 136, 0.3);*/
+  margin: 0px auto;
+  transition: all 0.3s ease-in-out 0s;
+  padding: 16px 0px;
+}
+
+.ghost-button {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 134.09%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F24B6A;
+  width: 115px;
+  height: 26px;
+  border: 1px solid #F24B6A;
+  border-radius: 15px;
+  background: transparent;
+}
+
+.burger-menu {
+  width: 35px;
+  height: 35px;
+}
+
+.logo-globe {
+  padding-left: 60px;
+}
+
+

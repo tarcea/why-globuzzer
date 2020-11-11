@@ -4,6 +4,7 @@ import logo from '../../images/logo_globe.png';
 // import { IconContext } from "react-icons";
 import { VscMenu } from 'react-icons/vsc';
 import Sesame from './Sesame';
+import styles from './NavMobile.module.css';
 
 const NavbarMobile = () => {
   const [scrollUp, setScrollUp] = useState(null);
@@ -56,14 +57,14 @@ const NavbarMobile = () => {
     <Sesame openSesame={openSesame} handleOpen={handleOpen} />
 
     }
-    <div className="mobile-container" style={noLine} onClick={handleClick}>
-      <VscMenu className="burger-menu"
+    <div className={styles.["mobile-container"]} style={noLine} onClick={handleClick}>
+      <VscMenu className={styles.["burger-menu"]}
                        style={whiteStyle}
                        onClick={() => setSesame(!openSesame)}/>
-      <div className="logo-globe">
+      <div className={styles.["logo-globe"]}>
         <img src={logo} alt="logo-globe" />
       </div>
-      <div className="ghost-button"
+      <div className={styles.["ghost-button"]}
            style={style}
            onMouseEnter={() => setHover(true)}
            onMouseLeave={() => setHover(false)}>

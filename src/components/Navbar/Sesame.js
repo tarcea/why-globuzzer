@@ -3,7 +3,7 @@ import logo from '../../images/globuzzer_logo.png';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { AnchorContext } from '../.././contexts/AnchorContext';
-// import {useSpring, animated} from 'react-spring';
+import style from './Sesame.module.css';
 
 const Sesame = ({ openSesame, handleOpen}) => {
 
@@ -18,23 +18,23 @@ const Sesame = ({ openSesame, handleOpen}) => {
         }
 
   return (
-    <div className="floating-menu">
-          <div className="sesame-container">
+    <div className={style.["floating-menu"]}>
+          <div className={style.["sesame-container"]}>
             <div>
-              <img src={logo} alt="logo" className="sesame-logo"/>
+              <img src={logo} alt="logo" className={style.["sesame-logo"]}/>
             </div>
-            <div className="sesame-links">
-              <div className="link">
+            <div className={style.["sesame-links"]}>
+              <div className={style.link}>
                 <GoLocation />
                 <a href="#www" onClick={handleSesame}>Testimonials</a>
               </div>
-              <div className="link">
+              <div className={style.link}>
                 <AiOutlineQuestionCircle />
                 <a  onClick={() => {handleClick(footer); handleSesame()}} style={{cursor:"pointer"}}>Contact us</a>
               </div>
             </div>
           </div>
-          <div className="ghost-button" style={{color:"#FFFFFF", background:"#F24B6A", margin:"33px auto 0"}}>
+          <div className={style.["ghost-button"]} style={{color:"#FFFFFF", background:"#F24B6A", margin:"33px auto 0"}}>
             <p onClick={handleSesame}>Get started</p>
           </div>
         </div>

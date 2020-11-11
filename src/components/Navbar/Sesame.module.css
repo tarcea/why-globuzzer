@@ -1,0 +1,110 @@
+@keyframes myAnimation{
+  0%{
+    opacity: 0.1;
+    /*transform: rotateY(90deg);*/
+    transform: scale(0);
+    /*transform: scaleX(0.2);*/
+  }
+  25%{
+    opacity: 0.2;
+    /*transform: rotateY(60deg);*/
+    transform: scale(0.25);
+    /*transform: scaleX(0.4);*/
+  }
+  50%{
+    opacity: 0.3;
+    /*transform: rotateY(30deg);*/
+    transform: scale(0.5);
+    /*transform: scaleX(0.6);*/
+  }
+  75%{
+    opacity: 0.5;
+    /*transform: rotateY(10deg);*/
+    transform: scale(0.75);
+    /*transform: scaleX(0.8);*/
+  }
+  100%{
+    /*display: none;*/
+    opacity: 1;
+    /*transform: rotateY(0deg);*/
+    transform: scale(1);
+    /*transform: scaleX(1);*/
+  }
+}
+
+
+
+.link {
+  display: flex;
+  align-items: center;
+  padding-bottom: 36px;
+}
+
+.floating-menu {
+  z-index: 9999;
+  height: 345px;
+  width: 213px;
+  background: #2A293A;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  border-radius: 1px;
+  animation-name: myAnimation;
+  animation-duration: 150ms;
+  /*animation-delay: 200ms;*/
+  animation-fill-mode: forwards;
+}
+
+.sesame-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 14px 20px;
+  color: #FFFFFF;
+  border-bottom: 1px solid #5F5D73;
+}
+
+.sesame-logo {
+  width: 78px;
+  height: 11px;
+  padding-bottom: 45px
+  /*left: 20px;
+  top: 14px;*/
+}
+
+.sesame-links {
+  margin-bottom: 50px;
+}
+
+.sesame-links a {
+  display:flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 18px;
+}
+
+.ghost-button {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 134.09%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F24B6A;
+  width: 115px;
+  height: 26px;
+  border: 1px solid #F24B6A;
+  border-radius: 15px;
+  background: transparent;
+}

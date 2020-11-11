@@ -1,0 +1,68 @@
+.top-menu {
+  /*background-color: pink;*/
+  /*margin-top: 31px;*/
+  /*margin-left: 54px;*/
+  /*background: #ffffff;*/
+  padding: 10px 30px;
+  color: #ffffff;
+  height: 78px;
+}
+
+.desktop-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.menu-logo {
+  margin-left: 54px;
+}
+
+
+.desktop-links {
+
+}
+
+.desktop-links li {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #888888;
+  list-style-type: none;
+  display: inline-block;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.desktop-button {
+  display: flex;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  border: 1px solid #F24B6A;
+  border-radius: 15px;
+  color: #F24B6A;
+  width: 140px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+  background: transparent;
+}
+
+.desktop-button:hover {
+  background-color: #F24B6A;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+
+}

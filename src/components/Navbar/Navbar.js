@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NavbarDesktop from './NavbarDesktop';
 import NavbarMobile from './NavbarMobile';
-import './Navbar.css';
+import style from './Navbar.module.css';
 
 const Navbar = ({ width }) => {
 
@@ -22,7 +22,7 @@ const Navbar = ({ width }) => {
   }, [])
 
   return (
-    <div className="navbar-container" style={{background:`${navColor}`}}>
+    <div className={style.["navbar-container"]} style={{background:`${navColor}`}}>
 
     {width >= 900
       ?
