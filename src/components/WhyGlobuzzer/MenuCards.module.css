@@ -1,0 +1,17 @@
+/*MenuCards*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 50px;
+  width: 70%;
+}
+
+@media screen and (max-width: 900px) {
+
+  .grid-container {
+    grid-template-columns: none;
+    width: 100%;
+    gap: 0px;
+  }
+
+}

@@ -1,0 +1,70 @@
+/*Card*/
+.card-body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: start;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.card-text h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #555555;
+}
+
+.card-text p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #888888;
+}
+
+.card-icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 900px) {
+
+  .card-body {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 2fr;
+    padding: 20px;
+  }
+
+    .card-icon {
+      width: 50px;
+      height: 50px;
+      margin: 0px;
+      justify-self: center;
+      align-self: center;
+  }
+
+  .card-text h1 {
+    font-size: 18px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .card-text p {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+}
