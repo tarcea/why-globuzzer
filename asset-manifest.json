@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/why-globuzzer/static/css/main.2ca27fe3.chunk.css",
-    "main.js": "/why-globuzzer/static/js/main.86b5980b.chunk.js",
-    "main.js.map": "/why-globuzzer/static/js/main.86b5980b.chunk.js.map",
+    "main.css": "/why-globuzzer/static/css/main.e1ec2bfe.chunk.css",
+    "main.js": "/why-globuzzer/static/js/main.2ab2a931.chunk.js",
+    "main.js.map": "/why-globuzzer/static/js/main.2ab2a931.chunk.js.map",
     "runtime-main.js": "/why-globuzzer/static/js/runtime-main.a1664490.js",
     "runtime-main.js.map": "/why-globuzzer/static/js/runtime-main.a1664490.js.map",
     "static/js/2.ff65f094.chunk.js": "/why-globuzzer/static/js/2.ff65f094.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.cc6fd65e.chunk.js": "/why-globuzzer/static/js/3.cc6fd65e.chunk.js",
     "static/js/3.cc6fd65e.chunk.js.map": "/why-globuzzer/static/js/3.cc6fd65e.chunk.js.map",
     "index.html": "/why-globuzzer/index.html",
-    "static/css/main.2ca27fe3.chunk.css.map": "/why-globuzzer/static/css/main.2ca27fe3.chunk.css.map",
+    "static/css/main.e1ec2bfe.chunk.css.map": "/why-globuzzer/static/css/main.e1ec2bfe.chunk.css.map",
     "static/js/2.ff65f094.chunk.js.LICENSE.txt": "/why-globuzzer/static/js/2.ff65f094.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/why-globuzzer/static/media/image_background.851b66c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a1664490.js",
     "static/js/2.ff65f094.chunk.js",
-    "static/css/main.2ca27fe3.chunk.css",
-    "static/js/main.86b5980b.chunk.js"
+    "static/css/main.e1ec2bfe.chunk.css",
+    "static/js/main.2ab2a931.chunk.js"
   ]
 }
