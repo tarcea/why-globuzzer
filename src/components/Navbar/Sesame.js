@@ -13,12 +13,17 @@ const Sesame = ({ openSesame, handleOpen}) => {
     handleOpen(!openSesame)
   }
 
+    // const closeStyle = {
+    //    // animationName: openSesame ? "menuAnimation" : "backAnimation"
+    //   animationFillMode: openSesame ? "backwards" : "forwards"
+    // };
+
    const handleClick = (anchor) => {
             anchor.current.scrollIntoView({behavior: "smooth"});
         }
 
   return (
-    <div className={style.["floating-menu"]}>
+    <div className={style.floating}>
           <div className={style.["sesame-container"]}>
             <div>
               <img src={logo} alt="logo" className={style.["sesame-logo"]}/>

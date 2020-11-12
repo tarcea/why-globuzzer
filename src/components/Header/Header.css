@@ -150,9 +150,9 @@ color: #7B7B7B;
 .phone-frame-desk {
   width: 212px;
   height: 409px;
-  background-image: url('./../../images/frame.png');
+  /*background-image: url('./../../images/frame.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center;*/
 }
 

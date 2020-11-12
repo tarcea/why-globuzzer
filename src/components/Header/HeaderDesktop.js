@@ -24,7 +24,9 @@ const HeaderDesktop = () => {
           </div>
           <div className="header-right">
             <div className="phone-frame-desk">
-              <video src="./../../images/vid.mp4"></video>
+            <video>
+               <source src="./../../images/vid.mp4" type="video/mp4" />
+            </video>
             </div>
           </div>
         </div>

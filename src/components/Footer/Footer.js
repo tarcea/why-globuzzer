@@ -18,3 +18,4 @@ const { footer } = useContext(AnchorContext);
 }
 
 export default Footer;
+
