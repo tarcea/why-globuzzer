@@ -50,12 +50,11 @@ const NavbarMobile = () => {
     borderBottom: scrollUp > 60 ? 0 : "1px solid rgba(136, 136, 136, 0.3)"
   }
 
+
   return (
     <div>
     {openSesame &&
-
     <Sesame openSesame={openSesame} handleOpen={handleOpen} />
-
     }
     <div className={styles.["mobile-container"]} style={noLine} onClick={handleClick}>
       <VscMenu className={styles.["burger-menu"]}

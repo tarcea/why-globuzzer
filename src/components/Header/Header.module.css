@@ -1,17 +1,9 @@
-/*GENERAL*/
-.header-container {
+.container {
+  z-index: -1;
   width: 100vw;
-  height: 100vh;
+  /*height: 80vh;*/
+  position: relative;
   overflow: hidden;
-}
-
-.image-background {
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
   background-image: url('./../../images/image_background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,8 +11,8 @@
   background-attachment: fixed;
 }
 
-/*MOBILE*/
-.header-mobile {
+.header {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,70 +20,58 @@
   padding: 8px 20px;
 }
 
-.header-mobile h1 {
-  margin-top: 100px;
+.header h1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 0px;
   text-align: center;
   color: #535151;
 }
 
-.header-mobile p {
+.header p {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 18px;
-  display: flex;
-  align-items: center;
+  line-height: normal;
   text-align: center;
   color: #7B7B7B;
+  margin: 20px auto 30px;
+  max-width: 300px;
 }
 
-.phone-frame-mobile {
-  width: 147px;
-  height: 284px;
-  background-image: url('./../../images/frame.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.header-mobile h5 {
+.header p:last-child {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center;
   color: #FFFFFF;
-  width: 112px;
-  height: 37px;
   background: #F24B6A;
   border-radius: 5px;
+  width: 112px;
+  height: 37px;
+  justify-content: center;
 }
 
-/*DESKTOP*/
-
-.header-grid {
+.grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
-.header-left {
+.left {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 220px;
+  margin: 100px 0 0 150px;
 }
 
-.header-left h1 {
+.left h1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -100,7 +80,18 @@
   color: #535151;
 }
 
-.header-left h5 {
+.left p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #7B7B7B;
+}
+
+.left p:last-child {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -117,47 +108,16 @@
   border-radius: 5px;
 }
 
-.header-left p {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 36px;
-  display: flex;
-  align-items: center;
-  color: #7B7B7B;
-
-}
-
-.links-left {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.watch-video {
-  display: flex;
-  margin-left: 36px;
-  color: #F24B6A;
-}
-
-.header-right {
+.right {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin: 100px 0 0 10px;
 }
-
-.phone-frame-desk {
-  z-index: 1;
-  width: 212px;
-  height: 409px;
-  background-image: url('./../../images/frame.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
 .video {
-  z-index: 100;
+  height: 284px;
+  width: 147px;
+  background: grey;
 }
+
 

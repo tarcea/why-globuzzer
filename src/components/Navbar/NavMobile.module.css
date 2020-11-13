@@ -38,4 +38,9 @@
   padding-left: 60px;
 }
 
+.test {
+  transform: translate(-20%, 0%);
+  transition: transform all 3s;
+}
+
 

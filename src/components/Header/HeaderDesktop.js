@@ -24,7 +24,7 @@ const HeaderDesktop = () => {
           </div>
           <div className="header-right">
             <div className="phone-frame-desk">
-            <video>
+            <video className="video" autoplay loop>
                <source src="./../../images/vid.mp4" type="video/mp4" />
             </video>
             </div>
