@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Header.css';
 import HeaderDesktop from './HeaderDesktop';
 import HeaderMobile from './HeaderMobile';
+import video from '../.././images/vid.mp4';
 import styles from './Header.module.css';
 
 
@@ -18,9 +19,12 @@ const Header = ({ width }) => {
           <p>Everything you need to begin sharing your travel
           experiences, reach a broader audience and gain profit.
           </p>
-          <video className={styles.video}>
-            <source src="" />
+          <span>
+          <video autoplay="true" muted loop="true" className={styles.video} >
+            <source src={video} />
           </video>
+          <div className={styles.fingerprint}></div>
+          </span>
           <p>Get started</p>
         </div>
       ) : (
@@ -34,9 +38,10 @@ const Header = ({ width }) => {
             <p>Get started</p>
         </div>
         <div className={styles.right}>
-          <video className={styles.video}>
-            <source src="" />
+          <video autoplay="true" muted loop="true" className={styles.videoA}>
+            <source src={video} type="video/mp4" />
           </video>
+          <div className={styles.fingerprintA}></div>
         </div>
       </div>
       )}
