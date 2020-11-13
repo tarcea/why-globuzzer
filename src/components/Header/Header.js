@@ -17,7 +17,7 @@ const Header = ({ width }) => {
           experiences, reach a broader audience and gain profit.
           </p>
           <span>
-          <video autoplay="true" muted loop="true" className={styles.video} >
+          <video autoPlay={true} muted loop={true} className={styles.video} >
             <source src={video} />
           </video>
           <div className={styles.fingerprint}></div>
@@ -35,7 +35,7 @@ const Header = ({ width }) => {
             <p>Get started</p>
         </div>
         <div className={styles.right}>
-          <video autoplay="true" muted loop="true" className={styles.videoA}>
+          <video autoPlay={true} muted loop={true} className={styles.videoA}>
             <source src={video} type="video/mp4" />
           </video>
           <div className={styles.fingerprintA}></div>
