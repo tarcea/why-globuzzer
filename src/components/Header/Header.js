@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './Header.css';
-import HeaderDesktop from './HeaderDesktop';
-import HeaderMobile from './HeaderMobile';
 import video from '../.././images/vid.mp4';
 import styles from './Header.module.css';
 
