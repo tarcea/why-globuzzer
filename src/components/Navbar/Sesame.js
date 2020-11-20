@@ -3,11 +3,13 @@ import logo from '../../images/globuzzer_logo.png';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { AnchorContext } from '../.././contexts/AnchorContext';
+import { ContactContext } from '../.././contexts/ContactContext';
 import style from './Sesame.module.css';
 
 const Sesame = ({ openSesame, handleOpen}) => {
 
   const { top, footer, testimonials, } = useContext(AnchorContext);
+  const { handleContact } = useContext(ContactContext);
 
   const handleSesame = () => {
     handleOpen(!openSesame)
@@ -35,7 +37,7 @@ const Sesame = ({ openSesame, handleOpen}) => {
               </div>
               <div className={style.link}>
                 <AiOutlineQuestionCircle />
-                <a  onClick={() => {handleClick(footer); handleSesame()}} style={{cursor:"pointer"}}>Contact us</a>
+                <a  onClick={() => {handleContact(); handleSesame()}} style={{cursor:"pointer"}}>Contact us</a>
               </div>
             </div>
           </div>

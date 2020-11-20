@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import NavbarDesktop from './NavbarDesktop';
 import NavbarMobile from './NavbarMobile';
 import style from './Navbar.module.css';
+import { ContactContext } from '../.././contexts/ContactContext';
+import Contact from '.././Contact/Contact';
 
 const Navbar = ({ width }) => {
 
   const [navColor, setNavColor] = useState("transparent");
-
+  const { contact } = useContext(ContactContext);
   const setColor = () => {
     const currentScroll = window.pageYOffset;
     currentScroll > 60
@@ -29,6 +31,10 @@ const Navbar = ({ width }) => {
       <NavbarDesktop />
       :
       <NavbarMobile />
+  }
+  {contact && (
+    <Contact width={width}/>
+    )
   }
     </div>
   );

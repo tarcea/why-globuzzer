@@ -1,19 +1,18 @@
 import React, { useState, useEffect, useContext } from 'react';
-// import { Link, NavLink } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../images/globuzzer_logo.png';
 import { AnchorContext } from '../.././contexts/AnchorContext';
+import { ContactContext } from '../.././contexts/ContactContext';
 import styles from './NavbarDesktop.module.css';
 
 const NavbarDesktop = (props) => {
   const [scrollUp, setScrollUp] = useState(null);
   const [inHover, setHover] = useState(false);
   const { top, footer, testimonials } = useContext(AnchorContext);
+  const { handleContact } = useContext(ContactContext);
 
   const updateScroll = () => {
     setScrollUp(window.pageYOffset);
   }
-
 
   useEffect(() => {
     window.addEventListener("scroll", updateScroll);
@@ -38,6 +37,7 @@ const NavbarDesktop = (props) => {
         anchor.current.scrollIntoView({behavior: "smooth"});
     }
 
+
   return (
     <div className={styles.["top-menu"]}>
           <div className={styles.["desktop-container"]} style={noLine}>
@@ -48,7 +48,7 @@ const NavbarDesktop = (props) => {
 
                 <li style={whiteStyle} onClick={() => handleClick(footer)}>Testimonials</li>
 
-                <li style={whiteStyle} onClick={() => handleClick(footer)}>Contact us</li>
+                <li style={whiteStyle} onClick={handleContact} >Contact us</li>
 
               </ul>
             </div>

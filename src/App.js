@@ -6,7 +6,8 @@ import Header from './components/Header/Header';
 import WhyGlobuzzer from './components/WhyGlobuzzer/WhyGlobuzzer';
 import Footer from './components/Footer/Footer';
 import AnchorContextProvider from './contexts/AnchorContext';
-// import SignUp from './components/SignUp/SignUp';
+import ContactContextProvider from './contexts/ContactContext';
+//import SignUp from './components/SignUp/SignUp';
 // import background from './images/image_background.png';
 
 function App() {
@@ -24,12 +25,14 @@ function App() {
 
   return (
     <div id="top">
-    <AnchorContextProvider>
-      <Navbar width={width} />
-      <Header width={width}/>
-      <WhyGlobuzzer />
-      <Footer width={width} />
-    </AnchorContextProvider>
+    <ContactContextProvider>
+      <AnchorContextProvider>
+        <Navbar width={width} />
+        <Header width={width}/>
+        <WhyGlobuzzer />
+        <Footer width={width} />
+      </AnchorContextProvider>
+    </ContactContextProvider>
     </div>
   );
 }
