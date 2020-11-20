@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/why-globuzzer/static/css/main.a93660c8.chunk.css",
-    "main.js": "/why-globuzzer/static/js/main.d7bf4bb7.chunk.js",
-    "main.js.map": "/why-globuzzer/static/js/main.d7bf4bb7.chunk.js.map",
-    "runtime-main.js": "/why-globuzzer/static/js/runtime-main.a1664490.js",
-    "runtime-main.js.map": "/why-globuzzer/static/js/runtime-main.a1664490.js.map",
-    "static/js/2.59bc4237.chunk.js": "/why-globuzzer/static/js/2.59bc4237.chunk.js",
-    "static/js/2.59bc4237.chunk.js.map": "/why-globuzzer/static/js/2.59bc4237.chunk.js.map",
-    "static/js/3.cc6fd65e.chunk.js": "/why-globuzzer/static/js/3.cc6fd65e.chunk.js",
-    "static/js/3.cc6fd65e.chunk.js.map": "/why-globuzzer/static/js/3.cc6fd65e.chunk.js.map",
+    "main.css": "/why-globuzzer/static/css/main.f094b092.chunk.css",
+    "main.js": "/why-globuzzer/static/js/main.ca51be2a.chunk.js",
+    "main.js.map": "/why-globuzzer/static/js/main.ca51be2a.chunk.js.map",
+    "runtime-main.js": "/why-globuzzer/static/js/runtime-main.746f2b0a.js",
+    "runtime-main.js.map": "/why-globuzzer/static/js/runtime-main.746f2b0a.js.map",
+    "static/js/2.8204979f.chunk.js": "/why-globuzzer/static/js/2.8204979f.chunk.js",
+    "static/js/2.8204979f.chunk.js.map": "/why-globuzzer/static/js/2.8204979f.chunk.js.map",
+    "static/js/3.26646c76.chunk.js": "/why-globuzzer/static/js/3.26646c76.chunk.js",
+    "static/js/3.26646c76.chunk.js.map": "/why-globuzzer/static/js/3.26646c76.chunk.js.map",
     "index.html": "/why-globuzzer/index.html",
-    "static/css/main.a93660c8.chunk.css.map": "/why-globuzzer/static/css/main.a93660c8.chunk.css.map",
-    "static/js/2.59bc4237.chunk.js.LICENSE.txt": "/why-globuzzer/static/js/2.59bc4237.chunk.js.LICENSE.txt",
+    "static/css/main.f094b092.chunk.css.map": "/why-globuzzer/static/css/main.f094b092.chunk.css.map",
+    "static/js/2.8204979f.chunk.js.LICENSE.txt": "/why-globuzzer/static/js/2.8204979f.chunk.js.LICENSE.txt",
     "static/media/Header.module.css": "/why-globuzzer/static/media/image_background.851b66c6.png",
     "static/media/vid.6f177661.mp4": "/why-globuzzer/static/media/vid.6f177661.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1664490.js",
-    "static/js/2.59bc4237.chunk.js",
-    "static/css/main.a93660c8.chunk.css",
-    "static/js/main.d7bf4bb7.chunk.js"
+    "static/js/runtime-main.746f2b0a.js",
+    "static/js/2.8204979f.chunk.js",
+    "static/css/main.f094b092.chunk.css",
+    "static/js/main.ca51be2a.chunk.js"
   ]
 }
