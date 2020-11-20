@@ -7,7 +7,6 @@ const Contact = ({ width }) => {
   const { handleContact, handleForm, handleSubmit, details } = useContext(ContactContext);
   let smallScreen = (width <= 500 ? true : false);
 
-
   return (
     <div>
       <div className={contact.container}>
@@ -17,10 +16,12 @@ const Contact = ({ width }) => {
           please don’t hesitate to contact us.
           </p>
         </div>
-          <CgCloseR className={contact.close} onClick={handleContact} />
+          <CgCloseR className={contact.close}
+                    onClick={handleContact}
+          />
         <div className={contact.form}>
-          <p>*Mandatory field</p>
           <form action="" onSubmit={handleSubmit}>
+          <p>*Mandatory field</p>
             <input type="text"
                    id="name"
                    placeholder="Name*"
@@ -45,7 +46,9 @@ const Contact = ({ width }) => {
                       value={details.message}
                       >
             </textarea>
-            <button className={contact.button} onSubmit={handleSubmit}>Submit</button>
+            <button className={contact.button}
+                    onSubmit={handleSubmit}>Submit
+            </button>
           </form>
         </div>
       </div>
