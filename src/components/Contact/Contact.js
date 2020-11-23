@@ -7,21 +7,24 @@ const Contact = ({ width }) => {
   const { handleContact, handleForm, handleSubmit, details } = useContext(ContactContext);
   let smallScreen = (width <= 500 ? true : false);
 
+
   return (
     <div>
       <div className={contact.container}>
         <div className={contact.header}>
-          <h1>CONTACT US</h1>
-          <p>If you have any questions,
-          please don’t hesitate to contact us.
+          <h1 style={{fontSize: smallScreen ? "24px" : "30px"}}>CONTACT US</h1>
+          <p style={{fontSize: smallScreen ? "16px" : "18px"}}>If you have any questions,
+          please don’t hesitate<br />to contact us.
           </p>
+
         </div>
-          <CgCloseR className={contact.close}
+          <CgCloseR className={smallScreen ? contact.closeM : contact.close}
                     onClick={handleContact}
           />
         <div className={contact.form}>
-          <form action="" onSubmit={handleSubmit}>
+          <form action="" onSubmit={handleSubmit} className={contact.flex}>
           <p>*Mandatory field</p>
+          <div className={contact.row} style={{flexDirection: smallScreen ? "column" : "row"}}>
             <input type="text"
                    id="name"
                    placeholder="Name*"
@@ -34,6 +37,7 @@ const Contact = ({ width }) => {
                    onChange={handleForm}
                    value={details.email}
             />
+            </div>
             <input type="text"
                    id="subject"
                    placeholder="Subject*"

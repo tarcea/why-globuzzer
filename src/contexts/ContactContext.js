@@ -29,6 +29,7 @@ const ContactContextProvider = (props) => {
     setDetails(rawDetails);
   }
 
+
   return (
     <ContactContext.Provider
     value={{ contact, handleContact, details, handleForm, handleSubmit }}
